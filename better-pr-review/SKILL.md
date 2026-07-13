@@ -7,6 +7,15 @@ description: "PR quality gate for Better. Use for PR prep, PR body, self-review,
 
 Gold standard: [operate #482](https://github.com/jalantechnologies/operate/pull/482). Write so someone with zero context understands the problem, the design fit, and how to verify.
 
+**Incomplete descriptions = rejected PRs.** Poor documentation leads to production issues.
+
+## Branch & Commits
+
+- Branch: `author/type/description` (e.g. `udit/fix/login-timeout`).
+- Commits: `type: description` (≤50 chars), imperative mood.
+- Types: `feat` · `fix` · `chore` · `refactor` · `docs` · `test` · `perf` · `ci`.
+- Raise / update PRs daily when possible.
+
 ## Stance
 
 Lead with risks, not summaries:
@@ -92,17 +101,25 @@ Skip when the change is obvious or no real design fork.
 None | <describe>
 ```
 
-## Checklist
+## Before Requesting Review (handbook checklist)
 
-- PR does one thing.
-- Title: `feat: …` or `feat(scope): …`.
-- Description explains **why** and **how it fits**.
-- Self-review complete line by line.
-- Tests cover changed behavior and regression paths.
-- UI: screenshots or N/A. Backend: automated tests unless docs/config only.
-- API, DB, migration, security, audit, credential, privacy impacts called out.
-- Loom linked for feature PRs.
-- Prior review feedback addressed; threads resolved.
+- [ ] Line-by-line self-review
+- [ ] Tests pass; related behavior not broken
+- [ ] Template complete
+- [ ] Loom when it saves reviewer time
+- [ ] Automated tests for backend behavior
+- [ ] No debug noise / dead comments
+- [ ] Prior feedback addressed
+
+## Meta
+
+- Assignee = you. Labels set.
+- Give reviewers ~24h before nudging.
+
+## After Review
+
+- Eng review + **PM Acceptance** on the PR when required.
+- Sprint exit: demo on staging, business standpoint.
 
 ## References
 
