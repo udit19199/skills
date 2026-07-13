@@ -1,8 +1,6 @@
-# Only track better* (user-created)
 /*
-!/better/
-!/better-dev-workflow/
 !/better-operate-engineering/
 !/better-pr-review/
 !/better-product-planning/
 !/better-workflow/
+!.gitignore
