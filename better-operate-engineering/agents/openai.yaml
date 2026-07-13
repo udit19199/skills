@@ -1,0 +1,4 @@
+interface:
+  display_name: "Better Operate Engineering"
+  short_description: "Ship Operate changes with repo standards"
+  default_prompt: "Use $better-operate-engineering to implement this Operate change safely."

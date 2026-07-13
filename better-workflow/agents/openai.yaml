@@ -1,0 +1,4 @@
+interface:
+  display_name: "Better Workflow"
+  short_description: "Better operating rhythm and async updates"
+  default_prompt: "Use $better-workflow to plan my day and write a Better-style status update."

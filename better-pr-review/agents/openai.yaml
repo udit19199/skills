@@ -1,0 +1,4 @@
+interface:
+  display_name: "Better PR Review"
+  short_description: "Prepare and review Better pull requests"
+  default_prompt: "Use $better-pr-review to prepare this change for a Better PR."

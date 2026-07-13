@@ -1,0 +1,4 @@
+interface:
+  display_name: "Better Product Planning"
+  short_description: "Turn problems into PRDs and tickets"
+  default_prompt: "Use $better-product-planning to turn this problem into a PRD and execution plan."
