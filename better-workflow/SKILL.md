@@ -1,33 +1,11 @@
 ---
 name: better-workflow
-description: "Async work communication for Better. Use for PPP updates, EOD updates, handoffs, help requests, 1:1 prep, or project-channel messages."
+description: "Async work communication for Better. Use for help requests, 1:1 prep, handoffs, or project-channel messages. For daily PPP, use better-ppp."
 ---
 
 # Workflow
 
 Make work visible through outcomes, not activity.
-
-## Core Loop
-
-1. State the outcome before the activity.
-2. Name the artifact: PR, issue, doc, preview, demo, log, metric, decision.
-3. Surface blockers with evidence: what failed, what was tried, what decision is needed.
-4. Close at EOD with completed outcomes and links.
-
-## Status Shape
-
-```
-Plan:
-- <deliverable>, <issue/PR/doc link>, <intended outcome>.
-
-Problems:
-- <blocker>, <what I tried>, <decision/access needed>.
-
-Progress:
-- <completed outcome>, <artifact link>, <verification evidence>.
-```
-
-"Ship provider credential validation tests in PR #123" > "Work on tests."
 
 ## Ask For Help
 
@@ -37,9 +15,25 @@ Never send a vague "I am stuck." Include:
 - Attempts already made.
 - The specific decision or review needed.
 
+## 1:1 Prep
+
+Bring:
+- Top 1-2 priorities since last 1:1.
+- Blockers.
+- Wins or milestones.
+- Feedback or suggestions.
+- Questions about growth, goals, conflict, or motivation.
+
+## Collaboration
+
+- Prefer writing over verbal. Clear, detailed, invite comments.
+- Prefer project channels over DMs for work decisions.
+- Overlap ≥4 hours with team. Stay online in that window.
+- Meetings: video on, on time, agenda in advance when you call one.
+
 ## Voice
 
-Short paragraphs. Concrete nouns. Clear tradeoffs. No hype, no filler, no performative positivity.
+Short paragraphs. Concrete nouns. Clear tradeoffs. No hype, no filler, no performative positivity. Avoid: leverage, unlock, seamless, deep dive, circle back.
 
 ## References
 
